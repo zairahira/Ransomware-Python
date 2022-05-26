@@ -1,7 +1,7 @@
 # Create a ransomware in Python using Fernet cryptography
 
 This Python application encrypts all the files in its current folder. A key is generated using the [Fernet](https://cryptography.io/en/latest/fernet/) method. 
-Fernet encryption is an implementation of symmetric((also known as “secret key”)) encryption which means that an encrypted message cannot be manipulated or read without the key. There is also a method for decryption that restores the file.
+Fernet encryption is an implementation of symmetric(also known as “secret key”) encryption which means that an encrypted message cannot be manipulated or read without the key. There is also a method for decryption in the code that restores the file.
 
 While ransomaware in actual is way more complex, this program covers only the most basic structure.
 
@@ -19,8 +19,9 @@ You would get your files back.
 ## :traffic_light: Usage 
 1. View the contents of files: `apple-picking.txt` and `dead-leaves.txt`.
 1. Encrypt all files. Run: `encrypt.py`.
-1. Check their content.
-1. Decrypt the files. Run: `decrypt.py`.
+2. 1. The `thekey.key` file would be generated when code is run for the first time.
+3. Check their content.
+4. Decrypt the files. Run: `decrypt.py`.
 
 ```bash
 
@@ -47,4 +48,6 @@ Please make sure to update tests as appropriate.
 This program was built using the tutorial by Network Chuck on Youtube. Check the detailed video [here](https://www.youtube.com/watch?v=UtMMjXOlRQc).
 
 ## :warning: Disclaimer: 
-This project aims to provide some exposure to ethical programming. Please do not use it for malicious intents.
+- This project aims to provide some exposure to ethical programming. Please do not use it for malicious intents.
+- Before running the code, ensure your data is propertly backed up.
+- Proceed with caution!
