@@ -25,13 +25,13 @@ You would get your files back.
 
 ```bash
 
-#View contents prior to encrytpion
+# View contents prior to encrytpion
 cat dead-leaves.txt
 
 # Encrypt files
 python3 encrypt.py
 
-#Decrypt the files
+# Decrypt the files
 python3 decrypt.py
 
 ```
