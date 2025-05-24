@@ -19,9 +19,9 @@ You would get your files back.
 ## :traffic_light: Usage 
 1. View the contents of files: `apple-picking.txt` and `dead-leaves.txt`.
 1. Encrypt all files. Run: `encrypt.py`.
-2. 1. The `thekey.key` file would be generated when code is run for the first time.
-3. Check their content.
-4. Decrypt the files. Run: `decrypt.py`.
+1. The `thekey.key` file would be generated when code is run for the first time.
+1. Check their content.
+1. Decrypt the files. Run: `decrypt.py`.
 
 ```bash
 
