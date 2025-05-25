@@ -13,6 +13,7 @@ While ransomaware in actual is way more complex, this program covers only the mo
 This would encrypt the files `apple-picking.txt` and `dead-leaves.txt`. Note that the code files(`encrypt.py and decrypt.py`) and the key(`thekey.key`) would not be encrypted as a check has been implemented in the code.
 
 1. To decrypt the files, run: `python3 decrypt.py`.
+1. Before this make sure that you have your key in same folder as of the script.
 You would get your files back.
 
 
