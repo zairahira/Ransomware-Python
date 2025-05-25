@@ -1,6 +1,7 @@
 #! /usr/bin/env python3
 
 import os
+import sys
 from cryptography.fernet import Fernet
 
 files = []
@@ -13,6 +14,10 @@ for file in os.listdir():
 	
 print(files)
 
+if not os.path.exists("thekey.key"):
+    print("❌ Error: 'thekey.key' not found. Please ensure the key is in the same folder as this script.")
+    sys.exit(1)
+    
 with open("thekey.key","rb") as key:
         secretkey = key.read()
 
