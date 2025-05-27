@@ -18,7 +18,7 @@ print("Files to decrypt:", files)
 key_input = input("Enter full path to 'thekey.key' (or press Enter if it's in the same folder): ").strip()
 
 # for slashes in windows
-key_input = key_input.replace("\\", "/")
+key_input = key_input.replace("\\", "/").strip("\"'")
 
 # for path simplification will accept the folder or the key path
 if key_input == "":
